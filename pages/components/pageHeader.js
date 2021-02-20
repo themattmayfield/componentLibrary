@@ -3,7 +3,8 @@
 export default function  pageHeader() {
   return (
     
-    <div className="lg:flex lg:items-center lg:justify-between">
+    <div className="p-8">
+      <div className="lg:flex lg:items-center lg:justify-between">
       <div className="flex-1 min-w-0">
         <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
           Back End Developer
@@ -89,5 +90,6 @@ export default function  pageHeader() {
       </div>
     </div>
     
+    </div>
    )
 }
